@@ -1,0 +1,58 @@
+main h1 {
+    width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.list1 {
+    width: 1400px;
+    margin: 0 auto;
+    text-align: justify;
+    align-items: center;
+    margin-top: 20px;
+}
+
+li {
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.66);
+    font-size: 25px;
+
+}
+
+p#date {
+    text-align: center;
+}
+
+.terms {
+    font-size: 25px;
+    width: 1400px;
+    text-align: justify;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.66);
+    margin-top: 20px;
+}
+
+.terms h1 {
+  width: 100%;
+}
+
+@media (max-width: 1500px) {
+    .terms {
+      width: 1100px;
+    }
+  }
+  @media (max-width: 1200px) {
+    
+    .terms {
+      width: 800px;
+    }
+  }
+  @media (max-width: 950px) {
+    .terms h1 {
+    font-size: 25px;
+    }
+    .terms {
+      width: 350px;
+    }
+  }

@@ -1,0 +1,25 @@
+.about-us {
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    padding: 0;
+    margin-top: 20px;
+}
+
+@media (max-width: 1500px) {
+    .about-us {
+      width: 1100px;
+    }
+  }
+@media (max-width: 1200px) {
+
+    .about-us {
+        width: 800px;
+    }
+}
+@media (max-width: 950px) {
+
+    .about-us {
+        width: 350px;
+    }
+}

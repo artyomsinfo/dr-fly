@@ -1,0 +1,84 @@
+.partner-list {
+    width: 1400px;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.cards {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    transition: 0.5s;
+}
+  
+h1 {
+    text-align: center;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 5px 2px 5px 5px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    flex-grow: 1;
+    margin: 10px;
+    padding: 17px;
+    flex-basis: 20%;
+    height: 175px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  
+.card img {
+    width: 250px;
+    max-height: 100%;
+    border-radius: 20px;
+    margin: auto;
+}
+  
+.card p {
+    margin: 0 auto;
+    font-size: 21px;
+    text-align: justify;
+}
+  
+@media (max-width: 1500px) {
+
+.cards{
+    width: 1100px;
+}
+.card p {
+    font-size: 19px;
+}
+.container{
+    width: 1000px;
+}
+}
+
+@media (max-width: 1200px) {
+.cards {
+    width: 800px;
+}
+.card p {
+    font-size: 17px;
+}
+.container {
+    width: 750px;
+}
+}
+
+@media (max-width: 950px) {
+main .partner-list h1 {
+    font-size: 25px;
+}
+.cards {
+    width: 350px;
+}
+.card p {
+    font-size: 15px;
+}
+.container {
+    width: 350px;
+}
+}
